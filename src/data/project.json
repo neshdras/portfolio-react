@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Application de recettes",
+        "description": "Une application de recettes avec filtrages et recherche.",
+        "image": "/img/gnome.png"
+    },
+    {
+        "id": 2,
+        "title": "To-do list",
+        "description":"Liste de tâches avec persistance locale.",
+        "image": "/img/maragoat.png"
+    }
+]

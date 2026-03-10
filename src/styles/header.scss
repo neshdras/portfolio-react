@@ -1,0 +1,28 @@
+@import './variable';
+
+header{
+    background-color: rgba(10, 25, 47, 0.85);
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(189, 147, 249, 0.2);
+    .navbar{
+        display: flex;
+        column-gap: 20px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 50px;
+        a{
+            text-decoration: none;
+            color: $text-color;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+    }
+}

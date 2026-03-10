@@ -1,0 +1,19 @@
+@import './variable';
+
+html{
+    color: $text-color;
+    background-color: $bg-color;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+
+}
+
+.title{
+    font-size: 2.5rem;
+    color: $accent-color;
+    margin-bottom: 50px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+section{
+    padding: 120px;
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "img":"https://skillicons.dev/icons?i=html"
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "img":"https://skillicons.dev/icons?i=css"
+    },
+    {
+        "id": 3,
+        "name": "Javascript",
+        "img":"https://skillicons.dev/icons?i=js"
+    },
+    {
+        "id": 4,
+        "name": "NodeJs",
+        "img":"https://skillicons.dev/icons?i=nodejs"
+    },
+    {
+        "id": 5,
+        "name": "PHP",
+        "img":"https://skillicons.dev/icons?i=php"
+    },
+    {
+        "id": 6,
+        "name": "MySQL",
+        "img":"https://skillicons.dev/icons?i=mysql"
+    },
+    {
+        "id": 7,
+        "name": "MongoDb",
+        "img":"https://skillicons.dev/icons?i=mongodb"
+    },
+    {
+        "id": 8,
+        "name": "Wordpress",
+        "img":"https://skillicons.dev/icons?i=wordpress"
+    },
+    {
+        "id": 9,
+        "name": "Python",
+        "img":"https://skillicons.dev/icons?i=python"
+    },
+    {
+        "id": 10,
+        "name": "React",
+        "img":"https://skillicons.dev/icons?i=react"
+    }
+]
