@@ -48,5 +48,15 @@
         "id": 10,
         "name": "React",
         "img":"https://skillicons.dev/icons?i=react"
+    },
+    {
+        "id": 11,
+        "name": "Vite",
+        "img":"https://skillicons.dev/icons?i=vite"
+    },
+    {
+        "id": 12,
+        "name": "Scss",
+        "img":"https://skillicons.dev/icons?i=scss"
     }
 ]

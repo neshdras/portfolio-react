@@ -1,12 +1,14 @@
 @import './variable';
 
 html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
     color: $text-color;
     background-color: $bg-color;
     font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-
 }
-
 .title{
     font-size: 2.5rem;
     color: $accent-color;
@@ -14,6 +16,31 @@ html{
     font-weight: 800;
     letter-spacing: -1px;
 }
+main{
+    max-width: 1400px;
+    margin: auto;
+}
 section{
-    padding: 120px;
+    padding: 90px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: $text-color;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: $accent-color;
+        letter-spacing: 2.5px;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(189, 147, 249, 0.2);
+    color: #495670;
+    padding: 50px;
+    margin-top: 40px;
 }

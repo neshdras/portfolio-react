@@ -1,6 +1,8 @@
 import Footer from "../composants/Footer";
 import Navbar from "../composants/Header";
 import ListSkill from "../composants/Skill";
+import TrainList from "../composants/Training";
+import '../styles/global.scss'
 
 
 const Home = () =>{
@@ -16,6 +18,10 @@ const Home = () =>{
             <section id="skill-section">
                 <h2 className="title">Compétences</h2>
                 <div id="skill-list"><ListSkill/></div>           
+            </section>
+            <section id="train-section">
+                <h2 className="title">Formation</h2>
+                <div id="train-list"><TrainList/></div>
             </section>
         </main>
 

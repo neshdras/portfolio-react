@@ -1,6 +1,6 @@
 const Footer = () =>{
     return(
-        <p>© 2026 FORET Antonin</p>
+        <footer>© 2026 FORET Antonin</footer>
     )
 }
 

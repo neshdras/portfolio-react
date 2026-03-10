@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "school": "La Plateforme",
+        "website":"https://laplateforme.io/",
+        "curriculum": "Language à la carte",
+        "year": 2026
+    },
+    {
+        "id":2,
+        "school": "Legta Hector Serres",
+        "website": "https://agricampus40.fr/",
+        "curriculum": "Baccalauréat Scientifique",
+        "year": 2019
+    }
+]
