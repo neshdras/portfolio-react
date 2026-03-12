@@ -2,7 +2,7 @@
 
 header{
     background-color: rgba(10, 25, 47, 0.85);
-    height: 75px;
+    height: 100px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -11,15 +11,33 @@ header{
     border-bottom: 1px solid rgba(189, 147, 249, 0.2);
     z-index: 1000;
     backdrop-filter: blur(10px);
+    justify-content: space-around;
+    img{
+        height: 90px;
+        border-radius: 60px;
+    }
     .navbar{
         display: flex;
         column-gap: 20px;
         width: 100%;
         max-width: 1200px;
-        margin: 0 auto;
         justify-content: center;
         gap: 50px;
         letter-spacing: 1.5px;
-        
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        .react-icon{
+            font-size: 1.55rem;
+            &:hover{
+                color: $accent-color;
+                transform: rotate(10deg) scale(1.2);
+                filter: drop-shadow(0 0 15px $accent-color);
+            }
+        }
     }
 }
