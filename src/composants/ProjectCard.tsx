@@ -2,13 +2,16 @@ type ProjetCardProps = {
     title: string;
     description: string;
     image: string;
+    link: string;
 };
 
-const ProjectCard: React.FC<ProjetCardProps> = ({ title, description, image }) => (
+const ProjectCard: React.FC<ProjetCardProps> = ({ title, description, image, link }) => (
     <div className="project-card">
-        <img src={image} alt="{title}"/>
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <a href={link}>
+            <h3>{title}</h3>
+            <img src={image} alt={title}/>
+            <p>{description}</p>
+        </a>
     </div>
 );
 

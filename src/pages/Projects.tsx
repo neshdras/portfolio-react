@@ -9,11 +9,12 @@ type Project ={
     title: string;
     description: string;
     image: string;
+    link: string
 };
     
 const Projects = () => {
 
-    const [projects, setProjects] = useState<Project[]>([]);
+    const [project, setProjects] = useState<Project[]>([]);
 
     useEffect(()=>{
         setProjects(data)
@@ -35,6 +36,8 @@ const Projects = () => {
                         title={project.title}
                         description={project.description}
                         image={project.image}
+                        link={project.link}
+
                         />
                     ))
                 }

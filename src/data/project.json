@@ -10,21 +10,21 @@
         "id": 2,
         "title": "Node.js",
         "description":"Mise en application d'un back grâce à Node.js et appelant les information en front",
-        "image": "/img/maragoat.png",
+        "image": "/img/node_file.png",
         "link":"https://github.com/neshdras/server-js-example"
     },
     {
         "id": 3,
         "title": "JavaScript",
         "description": "Mise en plce du darkmode et du menu responsive sur un site via js",
-        "image":"",
+        "image":"/img/skillfacile-js.png",
         "link":"https://github.com/neshdras/SkillFacile_js"
     },
     {
         "id":4,
         "title": "Python",
         "description": "Utilisation de python et de sa bibliothèque Tkinter pour reproduire un pokedex ",
-        "image":"",
+        "image":"/img/pokedex.png",
         "link":"https://github.com/neshdras/projetPokedex"
     }
 ]
