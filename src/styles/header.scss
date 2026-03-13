@@ -11,7 +11,10 @@ header{
     border-bottom: 1px solid rgba(189, 147, 249, 0.2);
     z-index: 1000;
     backdrop-filter: blur(10px);
-    justify-content: space-around;
+    justify-content: center;
+    .burger-menu{
+        display: none;
+    }
     img{
         height: 90px;
         border-radius: 60px;
@@ -32,7 +35,7 @@ header{
         list-style: none;
         padding: 0;
         .react-icon{
-            font-size: 1.55rem;
+            font-size: 32px;
             &:hover{
                 color: $accent-color;
                 transform: rotate(10deg) scale(1.2);
@@ -40,4 +43,55 @@ header{
             }
         }
     }
+    .tooltiptext{
+        visibility: hidden;
+        position: absolute;
+        top: 66px;
+        right: 120px;
+    }
+    .tooltip:hover .tooltiptext{
+        visibility: visible;
+    }
+    .active{
+        display: block;
+        position: absolute;
+        right: 0;
+        top:156px;;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .navbar{
+        width: 60%;
+    }
+    header .tooltiptext{
+        top: 64px;
+        right: 32px;
+    }
+}
+@media screen and (max-width: 500px) {
+    header{
+        left: 0;
+        justify-content: space-between;
+        .navbar{
+            display: none;
+        }
+    
+        img{
+            margin-left: 8px;
+        }
+        
+        .burger-menu{
+            display: inline;
+            margin-right: 8px;
+        }
+    } 
+    header .contact{
+            display: none;
+        }
+
+    
 }

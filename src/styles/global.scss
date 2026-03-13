@@ -44,3 +44,13 @@ footer{
     padding: 50px;
     margin-top: 40px;
 }
+
+@media screen and (max-width: 500px) {
+   main{
+    margin: 0 16px;
+   }
+   main section{
+        padding: 70px 0;
+        padding-bottom: 20px;
+   }
+}
