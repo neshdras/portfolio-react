@@ -53,45 +53,47 @@ header{
         visibility: visible;
     }
     .active{
-        display: block;
+        display: grid !important;
         position: absolute;
         right: 0;
-        top:156px;;
-        flex-direction: column;
+        top:64px;;
         gap: 20px;
         padding: 20px;
+        background-color: $bg-section;
+        width: 40% !important;
+        border-radius: 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
     header .navbar{
-        width: 60%;
+        max-width: 454px;
+    }
+    header img{
+        margin-left: 16px;
+        height: 70px;
+    }
+    header ul {
+        margin-right: 16px;
     }
     header .tooltiptext{
         top: 64px;
         right: 32px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
     header{
         left: 0;
         justify-content: space-between;
         .navbar{
             display: none;
         }
-    
-        img{
-            margin-left: 8px;
-        }
+        
+
         
         .burger-menu{
             display: inline;
-            margin-right: 8px;
+            margin-right: 16px;
         }
-    } 
-    header .contact{
-            display: none;
-        }
-
-    
+    }   
 }

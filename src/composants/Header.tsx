@@ -15,11 +15,11 @@ const Navbar = () => {
             <header>
                 <a href="/"><img src="/img/poro.jpg" alt="logo" height="75" /></a>
 
-                <nav className={`navbar ${toggle} ? "active" : "" `}>
+                <nav className={`navbar ${toggle ? 'active' : '' }`}>
                     <Link to="/">Accueil</Link>
                     <Link to="/projects">Projets</Link>
                 </nav>
-                <Contact/>
+                    <Contact/>
                 <div><RxHamburgerMenu className="burger-menu" onClick={handleBurger}/></div>
             </header>
         )
