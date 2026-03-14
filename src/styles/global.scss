@@ -43,6 +43,15 @@ footer{
     color: #495670;
     padding: 50px;
     margin-top: 40px;
+    align-items: center;
+    a{
+        color: #495670;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 6px;
+
+    }
 }
 
 @media screen and (max-width: 500px) {

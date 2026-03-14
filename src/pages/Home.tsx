@@ -13,8 +13,8 @@ const Home = () =>{
 
         <main>
             <section id="info-section">
-                <h1 className="title">Bievenue sur mon portfolio</h1>
-                <p>Un jour de ferais ma présentation, en attandant, mon logo n'est-il pas <span className="">magnifique</span> ?</p>
+                <h1 className="title">Bienvenue sur mon portfolio</h1>
+                <p>Un jour, je ferai ma présentation, en attendant, mon logo n'est-il pas <span className="title">magnifique</span> ?</p>
             </section>
             <section id="skill-section">
                 <h2 className="title">Compétences</h2>

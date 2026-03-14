@@ -13,7 +13,7 @@ const Navbar = () => {
         }
     return (
             <header>
-                <a href="/"><img src="/img/poro.jpg" alt="logo" height="75" /></a>
+                <a href="/"><img src="" alt="en cours de developement par l'artiste" height="75" /></a>
 
                 <nav className={`navbar ${toggle ? 'active' : '' }`}>
                     <Link to="/">Accueil</Link>

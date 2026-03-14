@@ -1,6 +1,7 @@
 const Footer = () =>{
     return(
-        <footer>¤¤ © 2026 FORET Antonin ¤¤</footer>
+        <footer>
+            <p> © 2026 FORET Antonin | Logo fait par</p><a href="https://x.com/SokaiKayn"> Sokai</a></footer>
     )
 }
 
