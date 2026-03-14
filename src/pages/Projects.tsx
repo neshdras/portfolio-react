@@ -3,6 +3,7 @@ import ProjectCard from "../composants/ProjectCard";
 import data from '../data/project.json';
 import Navbar from "../composants/Header";
 import Footer from "../composants/Footer";
+import '../styles/project.scss'
 
 type Project ={
     id: number;
@@ -15,6 +16,7 @@ type Project ={
 const Projects = () => {
 
     const [project, setProjects] = useState<Project[]>([]);
+    
 
     useEffect(()=>{
         setProjects(data)
@@ -24,8 +26,8 @@ const Projects = () => {
     return(
         <>
         <Navbar/>
-        <section>
-            <h2>Mes projets</h2>
+        <section className="project-section">
+            <h2 className="title">Mes projets</h2>
 
 
             <div className="project-list">

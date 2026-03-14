@@ -10,8 +10,8 @@ const ProjectCard: React.FC<ProjetCardProps> = ({ title, description, image, lin
         <a href={link}>
             <h3>{title}</h3>
             <img src={image} alt={title}/>
-            <p>{description}</p>
         </a>
+            <p>{description}</p>
     </div>
 );
 
