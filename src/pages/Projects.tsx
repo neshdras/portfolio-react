@@ -1,26 +1,11 @@
-import { useEffect, useState } from "react";
 import ProjectCard from "../composants/ProjectCard";
 import data from '../data/project.json';
 import Navbar from "../composants/Header";
 import Footer from "../composants/Footer";
 import '../styles/project.scss'
 
-type Project ={
-    id: number;
-    title: string;
-    description: string;
-    image: string;
-    link: string
-};
-    
+
 const Projects = () => {
-
-    const [project, setProjects] = useState<Project[]>([]);
-    
-
-    useEffect(()=>{
-        setProjects(data)
-    }, []);
 
 
     return(
