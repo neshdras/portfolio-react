@@ -1,6 +1,6 @@
 {
     "version":2,
-    "builtCommand": "npm run build",
+    "buildCommand": "npm run build",
     "outputDirectory": "dist",
     "framewoek": "vite",
     "rewrites": [
