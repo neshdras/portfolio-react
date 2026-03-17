@@ -1,0 +1,9 @@
+{
+    "version":2,
+    "builtCommand": "npm run build",
+    "outputDirectory": "dist",
+    "framewoek": "vite",
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/index.html"}
+    ]
+}
