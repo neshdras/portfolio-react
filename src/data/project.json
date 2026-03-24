@@ -1,11 +1,11 @@
 [
     {
         "id": "backend-php-mysql",
-        "title": "Php & MySQL",
+        "title": "PHP & MySQL",
         "description": "Mise en application d'un back via MySQL et appelant ses données en front via Hypertext Processor",
         "image": "/img/booki_php.png",
         "link": "https://github.com/neshdras/booki",
-        "txt": "Au cours de ce projet, j'ai appris et mis en pratique une base de données MySQL en suivant le processus de CRUD et la gestion de la base de données. Tout en appelant les données sur le front avec le Php.",
+        "txt": "Au cours de ce projet, j'ai appris et mis en pratique une base de données MySQL en suivant le processus de CRUD et la gestion de la base de données. Tout en appelant les données sur le front avec le PHP.",
         "vercel":""
     },
     {

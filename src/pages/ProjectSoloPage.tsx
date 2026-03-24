@@ -4,7 +4,7 @@ import '../styles/projectSolo.scss'
 import data from '../data/project.json'
 import { Navigate, useParams } from "react-router-dom";
 import { FaGithubSquare, FaExternalLinkSquareAlt } from "react-icons/fa";
-
+import '../styles/projectSolo.scss'
 
 const ProjectSolo = () => {
     const { id } = useParams()
@@ -17,14 +17,19 @@ const ProjectSolo = () => {
             <>
             <Navbar/>
             <section>
-                <h1>{projectSolo?.title}</h1>
-                <p>{projectSolo?.description}</p>
-                <img src={projectSolo?.image} alt={projectSolo?.title} />
-                <p>{projectSolo?.txt}</p>
-                <div>
-                <a href={projectSolo?.link}><FaGithubSquare /></a>
-                {projectSolo?.vercel && <a href={projectSolo?.vercel}><FaExternalLinkSquareAlt /></a> }
-                </div>
+                <h1>{projectSolo?.title} </h1>
+                <article>
+                    <img src={projectSolo?.image} alt={projectSolo?.title} />
+                    <div className="info">
+                        <p>{projectSolo?.txt}</p>
+                        <div className="link-logo">
+                            <a href={projectSolo?.link}><FaGithubSquare  /></a>
+                            {projectSolo?.vercel && <a href={projectSolo?.vercel}><FaExternalLinkSquareAlt /></a> }
+                        </div>                
+                        
+                    </div>
+                </article>
+
             </section>
             
             <Footer/>
