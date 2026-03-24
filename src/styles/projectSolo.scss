@@ -18,8 +18,13 @@ section{
             .link-logo{
                 gap: 20px;
                 display: flex;
-                a{
-                   font-size: 40px; 
+                .react-icon{
+                    font-size: 44px;
+                    &:hover{
+                        color: $accent-color;
+                        transform: rotate(10deg) scale(1.2);
+                        filter: drop-shadow(0 0 15px $accent-color);
+                    }
                 }
                 
             }

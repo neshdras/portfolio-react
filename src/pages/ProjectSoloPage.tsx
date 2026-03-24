@@ -23,8 +23,8 @@ const ProjectSolo = () => {
                     <div className="info">
                         <p>{projectSolo?.txt}</p>
                         <div className="link-logo">
-                            <a href={projectSolo?.link}><FaGithubSquare  /></a>
-                            {projectSolo?.vercel && <a href={projectSolo?.vercel}><FaExternalLinkSquareAlt /></a> }
+                            <a href={projectSolo?.link}><FaGithubSquare className='react-icon' /></a>
+                            {projectSolo?.vercel && <a href={projectSolo?.vercel}><FaExternalLinkSquareAlt className='react-icon' /></a> }
                         </div>                
                         
                     </div>
