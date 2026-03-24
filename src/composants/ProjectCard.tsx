@@ -1,17 +1,20 @@
+import { Link } from "react-router-dom";
+
 type ProjetCardProps = {
+    id: number;
     title: string;
     description: string;
     image: string;
-    link: string;
+
 };
 
-const ProjectCard: React.FC<ProjetCardProps> = ({ title, description, image, link }) => (
+const ProjectCard: React.FC<ProjetCardProps> = ({id, title, description, image}) => (
     <div className="project-card">
-        <a href={link}>
+        <Link data-id={id} to={`/project/${id}`}>
             <h3>{title}</h3>
             <img src={image} alt={title}/>
-        </a>
-            <p>{description}</p>
+        </Link>
+        <p>{description}</p>
     </div>
 );
 

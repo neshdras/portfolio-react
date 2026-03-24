@@ -15,7 +15,7 @@ const NotFound = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [snake, setSnake] = useState<Point[]>(INITIAL_SNAKE);
   const [dir, setDir] = useState<Point>({ x: 1, y: 0 });
-  const [food, setFood] = useState<Point>(randomFood());
+  const [food, setFood] = useState<Point>(()=> randomFood());
   const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
@@ -84,7 +84,7 @@ const NotFound = () => {
     <>
     
     <div style={{ textAlign: "center", padding: 20 }}>
-    <a href="/">Acceuil</a>
+    <a href="/">Accueil</a>
       <h1>404 - Page non trouvée</h1>
       <p>Utilise les flèches pour jouer au Snake.</p>
       <canvas
