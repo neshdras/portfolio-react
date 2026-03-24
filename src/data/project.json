@@ -1,42 +1,56 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "title": "Php & MySQL",
         "description": "Mise en application d'un back via MySQL et appelant ses données en front via Hypertext Processor",
         "image": "/img/booki_php.png",
         "link": "https://github.com/neshdras/booki",
-        "txt": "Au cours de ce projet, j'ai appris et mis en pratique une base de données MySQL en suivant le processus de CRUD et la gestion de la base de données. Tout en appelant les données sur le front avec le Php."
+        "txt": "Au cours de ce projet, j'ai appris et mis en pratique une base de données MySQL en suivant le processus de CRUD et la gestion de la base de données. Tout en appelant les données sur le front avec le Php.",
+        "vercel":""
     },
     {
-        "id": 2,
+        "id": "2",
         "title": "Node.js",
         "description":"Mise en application d'un back grâce à Node.js et appelant les information en front",
         "image": "/img/NodeFiles.png",
         "link":"https://github.com/neshdras/server-js-example",
-        "txt": "Durant ce projet, j'ai appris le CRUD via Javascript, ainsi que l'utilisation d'une Intelligence Artificielle pour l'appel des citations. La mise en place de node, ses composant. Ainsi que la gestion du base de données avec MangoDb."
+        "txt": "Durant ce projet, j'ai appris le CRUD via Javascript, ainsi que l'utilisation d'une Intelligence Artificielle pour l'appel des citations. La mise en place de node, ses composant. Ainsi que la gestion du base de données avec MangoDb.",
+        "vercel":""
     },
     {
-        "id": 3,
+        "id": "3",
         "title": "JavaScript",
         "description": "Mise en place du darkmode et du menu responsive sur un site via JavaScript",
         "image":"/img/skillfacile-js.png",
         "link":"https://github.com/neshdras/SkillFacile_js",
-        "txt": "Ce projet consiste à réutiliser une application des formateurs et d'implementer u script Javascript pour y afficher des modales lors de l'inscription à la newsletter et pour le formulaire de contact, la mise en place d'un thème sombre via un button et l'implementation du menu responsive."
+        "txt": "Ce projet consiste à réutiliser une application des formateurs et d'implementer u script Javascript pour y afficher des modales lors de l'inscription à la newsletter et pour le formulaire de contact, la mise en place d'un thème sombre via un button et l'implementation du menu responsive.",
+        "vercel":""
     },
     {
-        "id":4,
+        "id": "4",
         "title": "Python",
         "description": "Utilisation de python et de sa bibliothèque Tkinter pour reproduire un pokedex ",
         "image":"/img/pokedex.png",
         "link":"https://github.com/neshdras/projetPokedex",
-        "txt": "Pour apprendre les bonnes pratiques de l'algorithemie, nous avons vu Python et l'utilisation de sa bibliothèque visuelle Tkinter. Au cours de ce projet, nous avons vu l'utilisation d'une classe, l'appelle des différentes méthodes de Python et le respect des normes de casse en fonction des éléments utilisés."
+        "txt": "Pour apprendre les bonnes pratiques de l'algorithmique, nous avons vu Python et l'utilisation de sa bibliothèque visuelle Tkinter. Au cours de ce projet, nous avons vu l'utilisation d'une classe, l'appelle des différentes méthodes de Python et le respect des normes de casse en fonction des éléments utilisés.",
+        "vercel": ""
     },
     {
-        "id":5,
-        "title": "React",
+        "id": "5",
+        "title": "React-colabo",
         "description": "Mise en place d'un jeu via React.js en collaboration",
         "image":"/img/react_game.png",
         "link":"https://github.com/Xaldin83/ChainReaction",
-        "txt": "Ce projet est une jeu de reflexion semblable à Tetris, ou le but est d'instencier 3 case de couleur identique pour gagner un point. On a mis en place un mode 2 joueur ainsi qu'un bot.  Ce projet nous a permis de travailler en equipe, avec les conflit de merge, les différences d'écriture, etc"
+        "txt": "Ce projet est une jeu de reflexion semblable à Tetris, ou le but est d'instencier 3 case de couleur identique pour gagner un point. On a mis en place un mode 2 joueur ainsi qu'un bot.  Ce projet nous a permis de travailler en equipe, avec les conflit de merge, les différences d'écriture. Le score et le tour du joueur sont intéractifs en fonction du mode de jeu, changeant entre le joueur 2 et l'ordinateur.",
+        "vercel": "https://chainreaction-tau.vercel.app/"
+    },
+    {
+        "id": "6",
+        "title": "React-solo",
+        "description": "Création d'un jeu de pierre feuille cisaux",
+        "image": "/img/rock-paper-scissor.png",
+        "link": "https://github.com/neshdras/rock-paper-scissor",
+        "txt":"",
+        "vercel":"https://rock-paper-scissor-chi-seven.vercel.app/"
     }
 ]
