@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "backend-php-mysql",
         "title": "Php & MySQL",
         "description": "Mise en application d'un back via MySQL et appelant ses données en front via Hypertext Processor",
         "image": "/img/booki_php.png",
@@ -9,7 +9,7 @@
         "vercel":""
     },
     {
-        "id": "2",
+        "id": "backend-node-js",
         "title": "Node.js",
         "description":"Mise en application d'un back grâce à Node.js et appelant les information en front",
         "image": "/img/NodeFiles.png",
@@ -18,7 +18,7 @@
         "vercel":""
     },
     {
-        "id": "3",
+        "id": "skillfacile-js",
         "title": "JavaScript",
         "description": "Mise en place du darkmode et du menu responsive sur un site via JavaScript",
         "image":"/img/skillfacile-js.png",
@@ -27,7 +27,7 @@
         "vercel":""
     },
     {
-        "id": "4",
+        "id": "pokedex-python",
         "title": "Python",
         "description": "Utilisation de python et de sa bibliothèque Tkinter pour reproduire un pokedex ",
         "image":"/img/pokedex.png",
@@ -36,7 +36,7 @@
         "vercel": ""
     },
     {
-        "id": "5",
+        "id": "chainreaction-react",
         "title": "React-colabo",
         "description": "Mise en place d'un jeu via React.js en collaboration",
         "image":"/img/react_game.png",
@@ -45,7 +45,7 @@
         "vercel": "https://chainreaction-tau.vercel.app/"
     },
     {
-        "id": "6",
+        "id": "pierre-feuille-cisaux-react",
         "title": "React-solo",
         "description": "Création d'un jeu de pierre feuille cisaux",
         "image": "/img/rock-paper-scissor.png",

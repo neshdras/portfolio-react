@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 type ProjetCardProps = {
-    id: number;
+    id: string;
     title: string;
     description: string;
     image: string;
@@ -10,7 +10,7 @@ type ProjetCardProps = {
 
 const ProjectCard: React.FC<ProjetCardProps> = ({id, title, description, image}) => (
     <div className="project-card">
-        <Link data-id={id} to={`/project/${id}`}>
+        <Link to={`/project/${id}`}>
             <h3>{title}</h3>
             <img src={image} alt={title}/>
         </Link>
