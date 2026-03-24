@@ -18,7 +18,7 @@ const ProjectSolo = () => {
             <Navbar/>
             <section>
                 <h1>{projectSolo?.title} </h1>
-                <article>
+                <article className="projectsolo-article">
                     <img src={projectSolo?.image} alt={projectSolo?.title} />
                     <div className="info">
                         <p>{projectSolo?.txt}</p>
