@@ -4,7 +4,6 @@ import '../styles/projectSolo.scss'
 import data from '../data/project.json'
 import { Navigate, useParams } from "react-router-dom";
 import { FaGithubSquare, FaExternalLinkSquareAlt } from "react-icons/fa";
-import NotFound from "./NotFound";
 
 
 const ProjectSolo = () => {
