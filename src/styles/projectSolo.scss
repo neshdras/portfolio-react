@@ -1,7 +1,6 @@
 @import './variable';
 
 section{
-    
     .projectsolo-article{
         display: grid;
         grid-auto-flow: column;
@@ -9,7 +8,7 @@ section{
         margin: auto;
         padding: 50px 0;
         img{
-            max-width: 700px;
+            max-width: 500px;
         }
         .info{
             display: flex;
@@ -31,5 +30,22 @@ section{
         }
 
     }
+
+}
+@media screen and (max-width: 700px ) {
+       .projectsolo-article{
+        img{
+            max-width: 300px;
+        }
+   }
+}
+@media screen and (max-width: 500px) {
+   main{
+    margin: 0 16px;
+   }
+   main section{
+        padding: 70px 0;
+        padding-bottom: 20px;
+   }
 
 }
